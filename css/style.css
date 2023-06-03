@@ -195,24 +195,51 @@ nav .fa {
   padding-top: 100px;
 }
 .news{
-	height: 400px;
-	background-color: #f0f3fa;
+	background: #068DA9;
+  border-radius: 10px;
+  height: 430px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+.news:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
 }
 .news .news1 h2{
 	text-align: center;
 	padding: 10px;
-    background: #0055a4;
-    text-align: center;
-    font-size: 22px;
-    font-weight: 400;
-    margin-bottom: 10px;
+  background: #0055a4;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 .news_date{ 
 	height:340px;
+  display: flex;
 }
 .news_date i {
 	color: red;
 	font-size: 14px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+hr{
+  margin: 0px;
+  padding: 0px;
+}
+.news_date p{
+  color: white;
+  font-size: 14px;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+.news_date p a{
+ text-decoration: none;
+ color: white;
 }
 .heading {
 	font-size: 28px;
