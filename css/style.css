@@ -189,6 +189,36 @@ nav .fa {
     display: none;
   }
 }
+/*-------News & Notices---------*/
+.news_section{
+	margin-top: 90px;
+}
+.news{
+	height: 400px;
+	background-color: #f0f3fa;
+}
+.news .news1 h2{
+	text-align: center;
+	padding: 10px;
+    background: #0055a4;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.news_date{ 
+	height:340px;
+}
+.news_date i {
+	color: red;
+	font-size: 14px;
+}
+.heading {
+	font-size: 28px;
+	font-weight: 500;
+	margin-bottom: 30px;
+	color: #0055a4;
+}
 
 /* -------COURSE------- */
 
@@ -232,7 +262,12 @@ h3 {
     height: 500px;
   }
 }
-
+/*-------About-------*/
+.subhead {
+	font-size: 18px;
+	color: red;
+	font-weight: 500;
+}
 /* ------- campus ------- */
 
 .campus {
@@ -380,6 +415,9 @@ h3 {
     font-size: 24px;
   }
 }
+
+/*-------placement------------*/
+
 
 /* --------footer-------- */
 
